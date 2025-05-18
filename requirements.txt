@@ -1,0 +1,41 @@
+Requirements:
+
+Python 3.12
+
+Required Python libraries:
+
+numpy>=1.24.0
+scipy>=1.10.0
+PyQt5>=5.15.9
+matplotlib>=3.7.1
+librosa>=0.10.0
+sounddevice>=0.4.6
+torch>=2.0.0
+scikit-learn>=1.3.0
+phonenumbers>=8.13.13
+
+Using the application:
+
+Dialer Tab: Enter a phone number and make calls
+History Tab: View call history with CallGuard AI analysis results
+Contacts Tab: Manage your contacts and mark numbers as spam
+Settings Tab: Configure CallGuard AI settings
+
+Testing the CallGuard AI:
+
+Use the simulation buttons to test different call scenarios
+"Simulate Normal Call": Simulates a regular call with low deepfake/recording probabilities
+"Simulate Deepfake": Simulates a call with high deepfake detection
+"Simulate Recording": Simulates a call with high recording detection
+
+Features:
+
+Caller Identification: Similar to TrueCaller, identifies callers and provides information about them
+Spam Detection: Flags potential spam callers based on database entries
+Call History: Maintains a log of all calls with relevant information
+Contact Management: Allows adding and managing contacts
+CallGuard AI: The unique selling point - detects AI-generated voices and pre-recorded audio in real-time
+Deepfake Detection: Identifies AI-generated voices using audio feature analysis
+Recording Detection: Identifies pre-recorded audio being played during calls
+Real-time Analysis: Provides on-the-fly analysis during calls
+
