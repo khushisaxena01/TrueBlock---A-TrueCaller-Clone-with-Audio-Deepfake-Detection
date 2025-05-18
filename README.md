@@ -1,4 +1,4 @@
-# TrueBlock---A-TrueCaller-Clone-with-Audio-Deepfake-Detection
+# TrueBlock - A TrueCaller Clone with Audio Deepfake Detection
 
 Project
 
